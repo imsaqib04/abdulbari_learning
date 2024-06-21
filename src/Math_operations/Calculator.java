@@ -32,14 +32,11 @@ public class Calculator {
                     break;
 
                 case 4:
-                    if(a == 0){
-                        result = 0;
-                    }
-                    else if (b == 0){
-                        System.out.println("undifine");
-                    }
-                    else {
+                    try {
                         result = a / b;
+                    }
+                    catch (ArithmeticException e){
+                        System.out.println (e);
                     }
                     break;
 
