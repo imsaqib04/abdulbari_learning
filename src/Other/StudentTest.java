@@ -1,3 +1,5 @@
+package Other;
+
 public class StudentTest {
 
         public String name;
