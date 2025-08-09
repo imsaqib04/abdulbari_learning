@@ -7,6 +7,9 @@ The code is organized into packages by topic, making it easy to navigate and lea
 
 ## 📂 Project Structure
 
+All source code files are located inside the `src` directory, organized into packages based on functionality.
+
+
 | Package                | Description                                                            |
 | ---------------------- | ---------------------------------------------------------------------- |
 | **AWT**                | GUI components using Abstract Window Toolkit                           |
